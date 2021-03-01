@@ -1,0 +1,77 @@
+a:hover {border: 2px solid red;  }
+
+input[type="radio"]:checked {margin-left:  25px; }
+
+[href="https://www.youtube.com/watch?v=4jYYHaTwWvY"] {color:red;} 
+
+a{
+	color: blue;
+}
+a.list1{
+	color: #FFBB00;
+}
+a.list2{
+	color: #800;
+}
+#e10{
+	color: #56c500;
+}
+body{background-color: #79e2f5;}
+
+#mainbg {background-color: #6c5c85;}
+
+p.ex4{
+	color: #00ff00;
+}
+p.ex5{
+	color: #00ff00;
+	background-color: #ff0000;
+}
+body.body5{
+	background-image: url("../img/ball.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 25%;
+}
+p.ex6,h1.ex7,p.ex8,p.ex9,h1.ex10{
+	font-family: Arial, Candara, Century-Gothic, sans-serif
+}
+h1.ex7{
+	font-style: normal;
+}
+h2.ex7,p.ex7,h2.ex10,h3.ex10{
+	font-family: Times New Roman, Georgia, serif;
+	font-style: italic;
+}
+p.ex7{
+	font-style: oblique;
+}
+p.ex8{
+	font-style: normal;
+	font-variant: small-caps;
+}
+p.ex9{
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600
+}
+h1.ex10{
+	font-style: normal;
+	font-size: 30px;
+}
+h2.ex10{
+	font-style: italic;
+	font-size: 100pt;
+    text-decoration: line-through;
+}
+h3.ex10{
+	font-style: italic;
+	font-size: 120%;
+}
+p.ex10{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: arial, sans-serif;
+	text-indent: 3pt;
+	text-align: justify;
+}
