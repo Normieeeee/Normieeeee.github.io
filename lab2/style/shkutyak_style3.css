@@ -1,0 +1,45 @@
+div.lab3 {
+    display: flex;
+    justify-content: center;
+}
+div.media {
+    text-align: center;
+    margin: 0 auto;
+}
+.table_mates {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.table_mates td {
+    border: 3px solid black;
+    padding: 0;
+    text-align: center;
+}
+.lab3 th {font-size: 20px;}
+.lab3 img {margin-bottom: -4px;}
+.lab3 iframe {
+    width: 1285px;
+    height: 150px;
+    border: none;
+}
+
+.biography audio {
+    height: 30px;
+}
+.biography{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.biography p{
+    text-align: center;
+    font-family: Verdana;
+    margin: 5px;
+}
+.gif {
+    float: left;
+}
+.player {
+    display: flex;
+    justify-content: center;
+}
