@@ -1,0 +1,32 @@
+body{
+    background: black;
+}
+
+.icons{
+    position: absolute;
+}
+
+.icons div{
+    position:absolute;
+}
+
+.kaneki {
+    top: 200px;
+    left: 600px;
+    z-index: 0;
+}
+.zxc {
+    top: 200px;
+    left: 700px;
+    z-index: 1;
+}
+.chel {
+    top: 300px;
+    left: 950px;
+    z-index: 0;
+}
+.cursed {
+    top: 400px;
+    left: 900px;
+    z-index: -1;
+}
