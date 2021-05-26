@@ -1,0 +1,452 @@
+*{
+  box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-display: swap;
+}
+button{
+    background: transparent;
+    border:none;
+    cursor: pointer;
+}
+ul{
+    list-style:none;
+    padding-left: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.content{
+  max-width:1055px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.bg{
+    background-color: #4CB1CA;
+}
+.top-header{
+    min-height: 43px;
+    padding-top:12px;
+}
+.lang-cur{
+    color:#BEF2FF;
+    font-size: 13px;
+    float: left;
+}
+.lang-cut-it{
+    display: inline-block;
+    vertical-align: top;
+}
+.lang-cut-it button, .right-list a{
+    color: #ffffff;
+}
+.lang-cut-it button::after{
+content: '';
+display: inline-block;
+width: 7px;
+height: 7px;
+border-radius: 2px;
+border-bottom: 1.5px solid #ffffff;
+border-right: 1.5px solid #ffffff;
+transform: rotate(45deg);
+transform-origin: center;
+position: relative;
+top:-2px;
+margin-left: 4px;
+}
+.right-list{
+  display: inline-block;
+  position:absolute;
+  right:15px;
+}
+.right-list li{
+  padding-left: 10px;
+  list-style:none;
+  display: inline-block;
+}
+.right-list a{
+  font-size: 13px;
+  vertical-align: top;
+}
+.right-list ul li:nth-child(-n+4):after{
+  content:'';
+  display: inline-block;
+  height:12px;
+  width:15px;
+  border-right:1px solid #ffffff;
+}
+header .logo{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #656565;
+    font-weight: 700;
+}
+header nav{
+    display:inline-block;
+    padding-left: 55px;
+    vertical-align: top;
+    padding-top: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #656565;
+}
+header nav ul{
+    display: inherit;
+}
+header nav ul li{
+    display: inherit;
+    margin-right: 21px;
+}
+header nav ul li a{
+    color: inherit;
+}
+header .bottom-header{
+    padding-top:30px;
+}
+header .main-search {
+ float: right;
+ margin-top: 9px;
+ position: relative;
+} 
+header .main-search input{
+ padding-left:10px;
+ float: right;
+ width: 174px;
+ height: 29px;
+ font-family: inherit;
+}
+header .carts{
+    float: right;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #656565;
+    vertical-align: top;
+    padding-top: 15px;
+}
+.carts-logo1{
+  vertical-align: top;
+  margin-top: 9px;
+  margin-right:14px;
+  float:right;
+  width: 36px;
+  height: 36px;
+  background-image: url('../img/shkutyak_logos.png');
+  background-position: -42px -9px;
+}
+.carts-logo2{
+  margin-left:14px;
+  margin-right:4px;
+  margin-top: 9px;
+  padding:0px;
+  float:right;
+  width: 35px;
+  height: 35px;
+  background-image: url('../img/shkutyak_logos.png');
+  background-position: -84px -9px;
+}
+.main-slider img{
+    width: 100%;
+}
+.main-slider {
+  position:relative;
+  padding-top:30px;
+  padding-bottom:18px;
+}
+.main-slider .slick-prev.slick-arrow{
+background-position: -16px -53px;
+top:203px;
+right:88%;
+z-index: 1;
+}
+.main-slider .slick-next.slick-arrow{
+background-position: -91px -53px;  
+top:203px;
+left:88%;
+}
+.aluminium{
+  width:285px;
+  height:47px;
+  background-color: rgba(0,0,0,0.5);
+  z-index:1;
+  position:absolute;
+  top:220px;
+  left:15.5%;
+  color:#F4F4F4;
+  text-transform: uppercase;
+  font-size:30px;
+  font-weight:lighter;
+  vertical-align:top;
+  padding-left:15px;
+  padding-top:3px;
+}
+.ray{
+  width:329px;
+  height:47px;
+  background-color: rgba(0,0,0,0.5);
+  z-index:1;
+  position:absolute;
+  top:270px;
+  left:15.5%;
+  padding-left:14px;
+  padding-top:3px;
+}
+.ray a{
+  color:#F4F4F4;
+  opacity:1;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 28px;
+}
+h2{
+  width:500px;
+  text-transform: uppercase;
+  color: #635F57;
+  font-weight: normal;
+  font-size: 24px;
+}
+.featured-products{
+  width:760px;
+  height:1018px;
+  margin-top:-5px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.staff-pick,
+.new-products{
+  width:762px;
+  height:320px;
+  margin-top:-5px;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.products, 
+.aside-blocks{
+  float:left;
+}
+.product-1{
+  width:234px;
+  height:318px;
+  box-shadow:0 0 4px rgba(0, 0, 0, 0.1);
+  padding-top:8px;
+  padding-left:8px;
+  position:relative;
+}
+.product-background{
+  width:218px;
+  height:228px;
+  background-color:#EFF1F0;
+  position:relative;
+  margin-bottom: 10px;
+}
+.product-background:before{
+  content:'';
+  background-image: url('../img/shkutyak_glasses.jpg');
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  top: 50px;
+  left: 8px;
+  background-size: cover;
+}
+.mark-new:before{
+  content:" ";
+  position: absolute;
+  width:206px;
+  height:190px;
+ -webkit-clip-path: polygon(38% 86%, 62% 86%, 75% 100%, 25% 100%);
+clip-path: polygon(38% 86%, 62% 86%, 75% 100%, 25% 100%);
+background-color: #4CB1CA;
+  z-index:1;
+  right:-137px;
+  top:-129px;
+  transform: rotate(45deg);
+}
+.mark-new:after{
+  content: "";
+  position: absolute;
+  width:5px;
+  height:4px;
+ -webkit-clip-path: polygon(40% 20%, 0% 100%, 100% 100%);
+clip-path: polygon(40% 20%, 0% 100%, 100% 100%);
+background-color: #4CB1CA;
+  z-index:1;
+  right:66px;
+  top:-3.5px;
+}
+.mark-new-2:after{
+  content:'';
+  position: absolute;
+  width:5px;
+  height:4px;
+ -webkit-clip-path: polygon(60% 20%, 0% 100%, 100% 100%);
+clip-path: polygon(60% 20%, 0% 100%, 100% 100%);
+background-color: #4CB1CA;
+  z-index:1;
+  right:-12px;
+  top:59px;
+  transform: rotate(90deg)
+}
+.new{
+  text-transform:uppercase;
+  position:absolute;
+  color: #FFFFFF;
+  font-size: 15px;
+  top:11px;
+  right:8px;
+  transform:rotate(45deg);
+  z-index:1;
+}
+.sale{
+  text-transform:uppercase;
+  position:absolute;
+  color: #FFFFFF;
+  font-size: 15px;
+  top:11px;
+  left:8px;
+  transform:rotate(315deg);
+  z-index:1;
+}
+.mark-sale:before{
+  content:" ";
+  position: absolute;
+  width:206px;
+  height:190px;
+  clip-path: polygon(38% 86%, 62% 86%, 75% 100%, 25% 100%);
+  background-color: #7DB122;
+  z-index:1;
+  left:-137px;
+  top:-129px;
+  transform: rotate(315deg);
+}
+.mark-sale:after{
+  content: "";
+  position: absolute;
+  width:5px;
+  height:4px;
+  clip-path: polygon(0% 100%, 40% 20%, 100% 100%);
+  background-color: #7DB122;
+  z-index:1;
+  left:66px;
+  top:-3.5px;
+}
+.mark-sale-2:after{
+  content:'';
+  position: absolute;
+  width:5px;
+  height:4px;
+  clip-path: polygon(60% 20%, 0% 100%, 100% 100%);
+  background-color: #7DB122;
+  z-index:1;
+  left:-12px;
+  top:59px;
+  transform: rotate(270deg);
+}
+.price{
+  padding-left:4px;
+  font-size:18px;
+  color:#7DB122;
+}
+.old-price{
+  font-size:14px;
+  color:#464148;
+  padding-left:4px;
+  margin-right:-4px;
+  text-decoration:line-through;
+}
+.product-1 .buy{
+  width:47px;
+  height:47px;
+  position: absolute;
+  right:12px;
+  bottom:25px;
+  background-image: url('../img/shkutyak_logos2.png');
+  background-position:-237px -3px;
+}
+.aside-item img{
+  height:346px;
+  width: 225px;
+  object-fit:cover;
+}
+.aside-banner{
+  width:235px;
+  height:447px;
+  margin-top:30px;
+  margin-left:28px;
+  box-shadow:0 0 4px rgba(0, 0, 0, 0.1);
+  border-top:4px solid #4CB1CA;
+  padding:15px;
+  position:relative;
+}
+.aside-banner h2{
+  width:207px;
+  padding:0;
+  margin:0px;
+  text-align:center;
+}
+.aside-banner .check{
+  width:130px;
+  height:45px;
+  background-color:#4CB1CA;
+  position:absolute;
+  z-index:1;
+  left:50px;
+  bottom:50px;
+  color: white;
+}
+.form{
+  width:235px;
+  height:281px;
+  margin-top:30px;
+  margin-left:28px;
+  box-shadow:0 0 4px rgba(0, 0, 0, 0.1);
+  border-top:4px solid #4CB1CA;
+  padding:5px;
+}
+.form h2{
+  width:235px;
+  text-align:center;
+  padding:0;
+  margin-top:10px;
+  margin-bottom:0;
+}
+.form p{
+  font-size:14px;
+  color:#464148;
+  text-align:center;
+}
+.form hr{
+  width:85px;
+  opacity:0.0;
+}
+.form input[type="email"]{
+  width:186px;
+  height:30px;
+  border:1px solid rgba(0, 0, 0, 0.1)
+}
+.form input{
+  margin-left:20px;
+  margin-top:5px;
+}
+.form input[type="submit"]{
+  width: 112px;
+  height: 44px;
+  margin-left: 58px;
+  margin-top:15px;
+  border:0;
+  background-color: #7DB122;
+  font-family:inherit;
+  font-size:14px;
+  color: #FFFFFF;
+  cursor:pointer;
+}
